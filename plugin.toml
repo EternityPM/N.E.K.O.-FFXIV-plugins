@@ -1,0 +1,26 @@
+[plugin]
+id = "ff14_companion"
+name = "N.E.K.O. FF14 Companion"
+type = "plugin"
+description = "Connect N.E.K.O. to a local FF14 Bridge for zone and combat context, and let the companion answer or speak through the active N.E.K.O. conversation."
+short_description = "FF14 zone and encounter context for N.E.K.O."
+keywords = ["FF14", "FFXIV", "ACT", "OverlayPlugin", "副本", "战斗", "地图"]
+version = "0.1.1"
+entry = "plugin.plugins.ff14_companion:FF14CompanionPlugin"
+
+[plugin.author]
+name = "N.E.K.O. Community"
+
+[plugin.sdk]
+recommended = ">=0.1.0,<0.2.0"
+supported = ">=0.1.0,<0.3.0"
+
+[plugin_runtime]
+enabled = true
+auto_start = false
+timeout = 10
+startup_failure = "warn"
+
+[plugin.i18n]
+default_locale = "zh-CN"
+locales_dir = "i18n"

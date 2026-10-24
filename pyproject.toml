@@ -1,0 +1,6 @@
+[project]
+name = "ff14-companion"
+version = "0.1.1"
+description = "N.E.K.O. companion integration for a local FFXIV ACT Bridge"
+requires-python = ">=3.11"
+dependencies = []

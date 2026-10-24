@@ -1,0 +1,13 @@
+[plugin_runtime]
+enabled = true
+auto_start = false
+
+[companion]
+bridge_base_url = "http://127.0.0.1:17891"
+request_timeout_seconds = 3
+max_event_age_seconds = 15
+proactive_speech_enabled = false
+zone_greeting_enabled = false
+min_trigger_priority = 8
+zone_greeting_cooldown_seconds = 180
+global_speech_cooldown_seconds = 5
